@@ -5,14 +5,16 @@ skeleton code for Assignment 5 Question 1
 # sample test files:
 Make sure you also make your own test files.
 ```
-$ wc -l *.txt
+$ $ wc -l test*.txt
+      10 test0.txt
       17 test1.txt
        1 test2.txt
        1 test3.txt
    68807 test4.txt
  1000000 test5.txt
  1000000 test6.txt
- 2068826 total
+      16 test7.txt
+ 2068852 total
 ```
 ---
 # My results:
