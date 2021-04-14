@@ -119,11 +119,11 @@ static void parse_request(long line_no, vs_t & toks, Request & request)
   if (! ok) line_err();
 
   if (tag < 0) {
-    if (tag < -1000 || toks.size() != 1) line_err();
+    if (tag < -10000000 || toks.size() != 1) line_err();
     request = { int(tag), 0 };
     return;
   }
-  if (tag > 1000 || toks.size() != 2) line_err();
+  if (tag > 10000000 || toks.size() != 2) line_err();
   long size = str2long(toks[1].c_str(), ok);
   if (! ok || size < 1 || size > 10000000) line_err();
   request = { int(tag), int(size) };
