@@ -1,6 +1,6 @@
 # memsim
 
-skeleton code for Assignment 5 Question 1
+
 
 # sample test files:
 Make sure you also make your own test files.
